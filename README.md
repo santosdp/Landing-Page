@@ -25,5 +25,7 @@ O objetivo deste projeto é criar uma landing page para promover um produto ou s
     |- Vector.png
 |- index.html
 |- style.css
+## Design
+* [Projeto do Figma](https://www.figma.com/file/URjuuyvCmqAZFOA3LQE5Z8/landing-page-(Community)?node-id=0%3A1&t=6pGtqBbdUtpPBSiG-1)
 ## Conclusão
 Este projeto de landing page implementa um design do Figma usando HTML e CSS. Ele pode ser usado como modelo para criar sua própria landing page para promover seu produto ou serviço. Este projeto ainda precisa de melhorias para corrigir erros presentes em seu design, como por exemplo a não aplicação de propriedades de fonte em determinados trechos de texto na página Offer. Alèm disso, ainda planejo adicionar de animações e eventos em javascript nesta página.
