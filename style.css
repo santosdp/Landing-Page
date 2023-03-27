@@ -1,0 +1,401 @@
+/* Definições basicas de fundo, tamanho da página e fonte */
+body{
+    background: #F4F6F7;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: 100vw;
+    height: 4244px;
+    margin: 0;
+}
+
+/* Início da nova sessão/página Home*/
+
+#home{
+    width: 100vw;
+    height: 1024px;
+    position: relative;
+    background: #005AD5;
+    margin: 0;
+}
+/* Estilização do logo da página */
+#logo{
+    position: absolute;
+    margin: 48px 0 0 135px;
+    width: 16.18vw;
+    height: 2.44vh;
+    font-family: 'Black Ops One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+/* Inicio do menu horizontal */
+#menu{
+    width: 397px;
+    height: 23px;
+    display: flex;
+    right: 98px;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 62px 0 0 945px;
+    padding: 0;
+    position: absolute;
+}
+#menu li{
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+}
+a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration:none;
+    color: #FFFFFF;
+}
+/* Estilização do bloco com texto e imagem */
+#home-bloco h2{
+    position: absolute;
+    width: 495px;
+    height: 58.18px;
+    margin: 320px 0 0 135px;
+    font-weight: 600;
+    font-size: 43.4211px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+#home-bloco p{
+    position: absolute;
+    width: 462px;
+    height: 72.95px;
+    margin: 416.37px 0 0 138px;
+    font-weight: 400;
+    font-size: 14.5895px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+#botao-explore{
+    position: absolute;
+    width: 124px;
+    height: 54px;
+    left: 150px;
+    top: 539px;
+    background: #FFFFFF;
+    border-color: #005AD5;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #005AD5;
+    cursor: pointer;
+}
+/* Definição da posição e proporção da imagem de casa */
+#home-casa{
+    position: absolute;
+    margin: 311px 0 0 729px;
+    right: 98px;
+    width: 612.75px;
+    height: 340.9px;
+}
+/* Definição da posição e proporção do bloco que estiliza o formato da página */
+#home-forma{
+    position: absolute;
+    width: 100vw;
+    height: 259px;
+    left: 0;
+    top: 765px;
+}
+
+
+/* Início da nova sessão/página denominada Offer*/
+
+
+/* Definição da proporção da página offer */
+#offer{
+    background: #F4F6F7;
+    width: 100vw;
+    height: 803px;
+    position: relative;
+}
+/* Título da pagina offer */
+#offer h2{
+    width: 50vw;
+    margin-top: 125px;
+    margin-left: 50%;
+    position: absolute;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #121212;
+}
+/* Texto acompanhado do título */
+#offer p{
+    position: absolute;
+    width: 638px;
+    height: 69px;
+    margin-left: 35%;
+    top: 185px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6C6C6C;
+    text-align: center;
+}
+/* Definição do tamanho que os "cards de feitos" irão ocupar e sua disposição (espalhados na horizontal)  */
+#offer-colecao{
+    position: relative;
+    width:80vw;
+    height: 361.73px;
+    top: 316px;
+    margin-left: 10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* Definição do tamanho dos "cards de feitos" e a disposição de suas elementos (espalhados dentro do card na vertical)  */
+.offer-card{
+    position: relative;
+    width: 289px;
+    height: 361.73px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Definição da posição dentro do card */
+.offer-card img{ 
+    position: absolute;
+    top: 39.97px;
+}
+/* Definição da posição dentro do card */
+.offer-card-titulo{
+    width: 144px;
+    height: 33px;
+    left:-270px;
+    margin-top: -50px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #121212;
+}
+/* Este bloco deveria aplicar as definições de posição e fonte do texto dentro do card */
+/* Porém esta configuração não está sendo aplicada e ainda está sem solução para este problema */
+.offer-card-texto{
+    position: absolute;
+    width: 243.16px;
+    height: 62.95px;
+    left:-270px;
+    top: -20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #121212;
+}
+/* Definição da posição dentro do card e estilização do botão */
+.botao-learn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 133.54px;
+    height: 43.97px;
+    margin-top: 277.8px;
+    left: 80px;
+    border: 2px solid #005AD5;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 21px;
+    text-align: center;
+    color: #005AD5;
+    cursor: pointer;
+}
+
+/* Início da nova sessão/página denominada Offer-meio*/
+#offer-meio{
+    width: 100vw;
+    height: 1248px;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0;
+}
+/* Definição da posição da imagem de casa em construção */
+#offer-meio-imagem-1{
+    position: absolute;
+    margin-left: 8%;
+    padding-top: 216px;
+    width: 565px;
+    height: 338.77px;
+}
+/* Definição de tamanho e disposição dos elementos que compõem os blocos com class offer-meio-texto */
+.offer-meio-texto{
+    position: relative;
+    width: 444px;
+    height: 218px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Definição de posição do primeiro bloco de textos*/
+#offer-meio-texto-1{
+    margin-left: 60%;
+    padding-top: 295px;
+}
+/* Definição de posição e fonte dentro do bloco de textos */
+.offer-meio-texto h3{
+    height: 35px;
+    position: absolute;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+/* Definição de posição e fonte dentro do bloco de textos */
+.offer-meio-texto h2{
+    position: absolute;
+    padding-top: 35px;
+    width: 444px;
+    height: 59px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    color: #121212;
+}
+/* Definição de posição e fonte dentro do bloco de textos */
+.offer-meio-texto p{
+    position: absolute;
+    padding-top: 128px;
+    width: 443px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6C6C6C;
+}
+/* Definição da posição da imagem de três casas */
+#offer-meio-imagem-2{
+    position: absolute;
+    margin-left: 50%;
+    top: 821px;
+    width: 597px;
+    height: 194.12px;
+}
+/* Definição de posição do segundo bloco de textos*/
+#offer-meio-texto-2{
+    margin-left: 8%;
+    padding-top: 268px;
+}
+
+
+/* Início da nova sessão/página denominada Contact*/
+
+/* Definição da proporção da página contact */
+#contact{
+    width: 100vw;
+    height: 1169px;
+    background: #F4F6F7;
+    position: relative;
+}
+/* Título da pagina contact */
+#contact h2{
+    position: absolute;
+    width: 188.9px;
+    height: 60px;
+    margin-top: 134px;
+    padding-left: 45vw;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+/* Texto acompanhado do título */
+#contact p{
+    position: absolute;
+    width: 417.72px;
+    height: 21px;
+    left: 37%;
+    padding-top: 194px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #6C6C6C;
+}
+/* Definição do tamanho que o formulario de contato deve ocupar */
+#formulario{
+    position: relative;
+    width: 930px;
+    height: 681px;
+    margin-left: 23%;
+    padding-top: 315px;
+}
+/* Estilização da fonte do texto placeholder */
+.sr-label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* Estilização do tamanho/posição do campo Imie e definição de bordas */
+#inputImie{
+    box-sizing: border-box;
+    position: absolute;
+    width: 48%;
+    height: 78px;
+    left: 0;
+    border: 6px solid #005AD5;
+}
+/* Estilização do tamanho/posição do campo Email e definição de bordas */
+#inputEmail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 48%;
+    height: 78px;
+    right: 0;
+    border: 6px solid #005AD5;
+}
+/* Estilização do tamanho/posição do campo Termat e definição de bordas */
+#inputTermat{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    left: 0;
+    margin-top: 94px;
+    border: 6px solid #005AD5;
+}
+/* Estilização do tamanho/posição do campo Tresc e definição de bordas */
+#inputTresc{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 391px;
+    left: 0;
+    margin-top: 185px;
+    border: 6px solid #005AD5;
+    resize: none;
+}
+/* Estilização do botão de envio do formulário */
+#botao-send{
+    position: absolute;
+    width: 330px;
+    height: 76px;
+    left: 31%;
+    margin-top: 605px;
+    background: #005AD5;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
